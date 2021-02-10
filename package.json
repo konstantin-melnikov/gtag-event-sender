@@ -1,0 +1,42 @@
+{
+  "name": "gtag-event-sender",
+  "version": "1.0.0",
+  "license": "GNU General Public License v3.0",
+  "description": "Send Google Analytics events via HTML attributes. You can send click, scroll and submit events by simply writing attributes in HTML tags.",
+  "keywords": [
+    "google",
+    "tag",
+    "manager",
+    "vanilla",
+    "gtag",
+    "analystics",
+    "html attributes",
+    "scroll event",
+    "click event",
+    "submit event"
+  ],
+  "author": "Melnikov Konstantin <cartman.zp@gmail.com> (http://studio.zp.ua)",
+  "homepage": "https://github.com/konstantin-melnikov/gtag-event-sender#README",
+  "bugs": {
+    "url": "https://github.com/konstantin-melnikov/gtag-event-sender/issues"
+  },
+  "main": "dist/gtag_event_sender.min.js",
+  "browser": "dist/gtag_event_sender.min.js",
+  "scripts": {
+    "prod": "webpack --config webpack.prod.js",
+    "dev": "webpack --config webpack.dev.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/konstantin-melnikov/gtag-event-sender"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.13",
+    "@babel/plugin-proposal-class-properties": "^7.12.13",
+    "@babel/preset-env": "^7.12.13",
+    "babel-loader": "^8.2.2",
+    "webpack": "^5.21.2",
+    "webpack-cli": "^4.5.0",
+    "webpack-merge": "^5.7.3"
+  }
+}

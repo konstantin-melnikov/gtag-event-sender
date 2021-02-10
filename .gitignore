@@ -1,0 +1,12 @@
+/access_log
+/error_log
+/cache/
+/vendor/
+/node_modules/
+/public/assets/css/bundle.*
+/public/assets/js/bundle.*
+/public/assets/config.json
+/public/wp/
+yarn.lock
+package-lock.json
+yarn-error.log
