@@ -1,6 +1,6 @@
 {
   "name": "gtag-event-sender",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "GNU General Public License v3.0",
   "description": "Send Google Analytics events via HTML attributes. You can send click, scroll and submit events by simply writing attributes in HTML tags.",
   "keywords": [

@@ -4,6 +4,7 @@ const dirSource = path.resolve(__dirname, './src');
 const dirAssets = path.resolve(__dirname, './dist');
 
 module.exports = {
+  target: 'web',
   context: dirSource,
   entry: {
     gtag_event_sender: [
@@ -13,6 +14,8 @@ module.exports = {
   output: {
     path: path.resolve(dirAssets),
     filename: '[name].min.js',
+    library: 'gtagEventSender',
+    libraryTarget: 'umd'
   },
   module: {
     rules: [

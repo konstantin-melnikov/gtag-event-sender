@@ -157,5 +157,6 @@ class GtagEventSender {
     return false;
   }
 }
+const gtagEventSender = new GtagEventSender()
 
-exports.gtagEventSender = new GtagEventSender()
+export default gtagEventSender
